@@ -1,8 +1,8 @@
 -- sets icon PNG inside variables
-local keyChangeBlockedEN = hs.image.imageFromPath("/Users/roganoalien/.hammerspoon/icons/AutoKeyBLOCKEDEN.png")
-local keyChangeBlockedES = hs.image.imageFromPath("/Users/roganoalien/.hammerspoon/icons/AutoKeyBLOCKEDES.png")
-local keyChangeEnglish = hs.image.imageFromPath("/Users/roganoalien/.hammerspoon/icons/AutoKeyEN.png")
-local keyChangeSpanish = hs.image.imageFromPath("/Users/roganoalien/.hammerspoon/icons/AutoKeyES.png")
+local keyChangeBlockedEN = hs.image.imageFromPath("../icons/AutoKeyBLOCKEDEN.png")
+local keyChangeBlockedES = hs.image.imageFromPath("../icons/AutoKeyBLOCKEDES.png")
+local keyChangeEnglish = hs.image.imageFromPath("../icons/AutoKeyEN.png")
+local keyChangeSpanish = hs.image.imageFromPath("../icons/AutoKeyES.png")
 -- global variable that allows/prevents auto layout change
 local stopKeyboardChange = false
 local currentIcon = nil
